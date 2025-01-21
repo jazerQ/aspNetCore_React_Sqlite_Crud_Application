@@ -1,4 +1,6 @@
+using Application;
 using DataAccess;
+using DataAccess.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -14,6 +16,8 @@ builder.Services.AddDbContext<MVDbContext>(options =>
     {
         options.UseSqlite(builder.Configuration.GetConnectionString(nameof(MVDbContext)));
     });
+builder.Services.AddScoped<IBookService, BookService>();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

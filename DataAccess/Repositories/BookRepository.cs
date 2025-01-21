@@ -48,7 +48,7 @@ namespace DataAccess.Repositories
 
             return bookEntity.Id; // возвращаю айдишник
         }
-        public async Task<Guid> Update(Guid id, string title, string description, int price) // новый метод для обновления данных
+        public async Task<Guid> Update(Guid id, string title, string description, decimal price) // новый метод для обновления данных
         {
             await _dbContext.Books // обновляю
                 .Where(b => b.Id == id)

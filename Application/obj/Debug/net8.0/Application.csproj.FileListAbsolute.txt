@@ -13,3 +13,4 @@ C:\Users\jazer\source\repos\MagicVilla\Application\obj\Debug\net8.0\Application.
 C:\Users\jazer\source\repos\MagicVilla\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\jazer\source\repos\MagicVilla\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\jazer\source\repos\MagicVilla\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\jazer\source\repos\MagicVilla\Application\obj\Debug\net8.0\Application.sourcelink.json

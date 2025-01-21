@@ -8,6 +8,6 @@ namespace DataAccess.Repositories
         Task<Guid> Delete(Guid id);
         Task<List<Book>> GetBooks();
         Task<Book> GetBook(Guid id);
-        Task<Guid> Update(Guid id, string title, string description, int price);
+        Task<Guid> Update(Guid id, string title, string description, decimal price);
     }
 }

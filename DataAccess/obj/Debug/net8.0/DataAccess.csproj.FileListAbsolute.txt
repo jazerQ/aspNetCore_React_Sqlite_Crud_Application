@@ -15,3 +15,4 @@ C:\Users\jazer\source\repos\MagicVilla\DataAccess\obj\Debug\net8.0\refint\DataAc
 C:\Users\jazer\source\repos\MagicVilla\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 C:\Users\jazer\source\repos\MagicVilla\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
 C:\Users\jazer\source\repos\MagicVilla\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\jazer\source\repos\MagicVilla\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json

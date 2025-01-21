@@ -41,7 +41,7 @@ namespace Application
         {
             return await _bookRepository.Create(book);
         }
-        public async Task<Guid> UpdateBook(Guid id, string title, string description, int price)
+        public async Task<Guid> UpdateBook(Guid id, string title, string description, decimal price)
         {
             return await _bookRepository.Update(id, title, description, price);
         }
